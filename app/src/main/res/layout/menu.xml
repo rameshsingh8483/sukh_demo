@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:slidemenu="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginEnd="@dimen/_50sdp"
+    slidemenu:layout_role="primaryMenu">
+
+
+    <LinearLayout
+        android:id="@+id/lin_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher"
+            />
+
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Name"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="@dimen/_10sdp"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_gravity="center"
+        android:gravity="center|start"
+        android:paddingStart="@dimen/_40sdp"
+        >
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="home"
+
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:gravity="center"
+
+
+
+            android:drawablePadding="@dimen/_15sdp"
+            />
+
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+
+        android:layout_marginTop="@dimen/_10sdp"/>
+
+
+    <LinearLayout
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_gravity="center"
+        android:gravity="center|start"
+        android:paddingStart="@dimen/_40sdp"
+        >
+
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menu"
+
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:gravity="center"
+
+            android:drawablePadding="@dimen/_15sdp"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+
+        android:layout_marginTop="@dimen/_10sdp"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/daily_offers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_gravity="center"
+        android:gravity="center|start"
+        android:visibility="gone"
+        android:paddingStart="@dimen/_40sdp"
+        >
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daily Offers"
+
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:gravity="center"
+ android:drawablePadding="@dimen/_15sdp"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_gravity="center"
+        android:gravity="center|start"
+        android:paddingStart="@dimen/_40sdp"
+        >
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Setting"
+
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:gravity="center"
+
+             android:drawablePadding="@dimen/_15sdp"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
